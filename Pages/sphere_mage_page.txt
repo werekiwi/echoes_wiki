@@ -1,0 +1,238 @@
+Coming soon!
+
+'''''READ THE BIG BOLD DISCLAIMER, FOR REAL:''''' I've started putting information on the wiki just so it can be there, and players can see it and start to get a feel for what's going on. I am doing my very best to organize a mostly finished product here for you, so hopefully this won't change too much.
+
+That said, understand that this -will- change as I progress and more thoughts come to me. If you want to get started on a concept, you're more than welcome to. But be aware that changes may require you to tweak/edit/rewrite some parts until we roll out the finalized version of this stuff.
+
+Apologies for any inconvenience. 
+
+Hopefully you find this at least moderately helpful as it grows.
+
+
+===Overview===
+
+Portland is a shining, modern city, full of all the wonders that the Fallen World has to offer. It's a cultural melting pot that often seems to be at the forefront of every new movement, and stands as an icon for other cities around the United States in its progressive idealism. On the surface, it seems to be everything that an Awakened looking to make their way in the world could want.
+
+But appearances can be deceiving.
+
+Underneath this shining, Fallen facade lies a wasteland -- a magical ruin the likes of which the Awakened World hasn't seen since the Fall. Reality is cracked and shattered in ways that defy mapping, moving like unpredictable faults as the fabric of the Tellurian splits and merges in ways that almost, ''almost'' seem to have a pattern -- until everything suddenly changes, seeming to defy observation in ways that modern science's Uncertainty Principle predicts for quantum phenomena. 
+
+These cracks bleed magic into the Fallen World seemingly of its own accord, called by no mage. These pseudo-spells seem to have a will of their own, shifting and adapting in ways that even Masters cannot mimic, almost like it were a living thing.
+
+Even the magic that gets called forth by the Awakened bleeds through the cracks and faults in reality, causing unintended side-effects completely distinct from the effects of Paradox (though as the Guardians argue, the results are sometimes much the same). Magical accidents by even the most careful and well-prepared willworker have decimated the ranks of the Awakened, causing lives and precious resources to be lost in ways that the unpredictable nature of magic make it difficult or impossible to recover.
+
+Most Awakened, if they're foolhardy enough to come to this place in the first place, don't tend to stay long. Frustration, heartache, and loss drive the steadier Awakened out of the city into safer waters.
+
+But not you.
+
+You're different. Something keeps you here, pressing forward despite the danger. Maybe the intensity of your Obsessions won't allow you to leave without answers. Maybe you're desperate, and have nowhere else to go -- or nothing left to lose. Everyone has their own story, told their own way. But one thread connects them in particular. Something lit a fire under your ass, and you won't give up until you've uncovered whatever secrets Portland has to offer -- or die trying.
+
+What sacrifices have you made for the sake of knowing?
+
+What are you willing to do? 
+
+What are you willing to lose? 
+
+Welcome to the Shattered City. 
+
+Good luck. You're gonna need it.
+
+====A (Very) Brief History of the Awakened in Portland====
+
+=====The Consilium=====
+
+With such a volatile magical landscape, risking exposure to sleepers and danger from other supernatural entities that might not take to kindly to the presence of mages in Portland, it's hardly a surprise that the Guardians of the Veil have maintained control for at least a decade. Or at least, that's as far back as anyone really remembers. Records have been destroyed, mages lost or left, and what should be a fairly cohesive set of doctrines and rulings is really barely more than a handful of notable events.
+
+Still, the rules of the Consilium have kept mages safe so far. Only use magic as absolutely necessary. Always use the lightest touch possible. And under no circumstances are you to reveal your presence to ''anyone'' in the city, Sleeper or Supernatural. (When your best options for self-defense are just as likely to kill you as to help you, it's little wonder that nobody has really complained about this harsh doctrine).
+
+But recently, things have changed. With the treaty between the Vampires and the Werewolves, the first whisperings that mages might be able to reveal themselves without worry crept through the few scattered cabals like wildfire. What's more, it's further rumored that negotiations to join this newfound peace accord are already underway -- or may already be complete. Though other rumors suggest that someone forced the hand of the Guardians, and they're not overly thrilled about it.
+
+'''The Council'''
+
+*[[Character:Hierarch Tiamat|Hierarch Tiamat]] - Sitting as Hierarch, the Acanthus known as Tiamat rules with an iron fist, but an eye for wisdom. While she dispenses justice swiftly for threats to the Awakened, even she knows that their numbers are limited, and that there are better uses for an Awakened Soul than imprisonment or execution. Punishments are always fair and to the measure of the crime committed, and often involve engaging in some service to the allied cabals of the Consilium -- which, to an Awakened, may even be the more humiliating outcome.
+
+* [[Character:Councilor Selene|Councilor Selene]] - The Thyrsus Councilor, and member of the Mysterium, has always been something of the rebel. Although when it comes to the safety of the Awakened, she rarely deviates from the decisions of her brethren, Selene has been known to take risks herself that would give others pause to consider. Rumors of the rivalry between her and the Hierarch abound, though to see the pair in a room, one might think they are overstated.
+
+* [[Character:Councilor Baldr|Councilor Baldr]] - Seated for the MOros, the Thearch Baldr is rumored to be the oldest member of the Council -- and, if other rumors are to be believed, lost his seat to Tiamat when she soundly deposed him, though no one can remember what the conflict is about. Both Awakened flatly deny that this ever took place, however, and insist that Tiamat was always the most qualified. Baldr's knowledge of the Lex Magica is unsurpassed.
+
+* [[Character:Councilor Neith|Councilor Neith]] - The Obrimos Councilor has always been known to be direct, efficient, and ruthless in her pursuit of her goals. Acting as the Consilium's foremost strategist, Neith is often the one assigned to vet new Sentinels, testing their mettle and their ability to strategize in the face of unexpected events.
+
+* [[Character:Councilor Shenan|Councilor Shenan]] - The newest addition to the Council, Shenan has been seated for less than a year. This quiet, reserved, often sad-looking Mastigos is the most empathetic to those that come under his judgment, often asking the simple question, 'Why?' Although often silent during most official functions, Shenan excelled at subtle uses of the Art, knowing just where to apply the tiniest amount of pressure for the greatest effect, and he should not be underestimated.
+
+=====The Assembly=====
+
+Portland's Free Council has existed alongside the Consilium since its foundation. But that doesn't mean that things have always been sunshine and rainbows, either.
+
+Establishing themselves firmly as seperate but equal partners to the Consilium, the willful Awakened of the Free Council experienced even more hardship than some of their more traditional, conservative kin. Experiments with technology, which presumably somewhat safer than the traditional forms of magic, proved to be hazardous beyond imagination, from simple collateral damage from catastrophic equipment failures and unpredictable reactions to horrifying amalgamations of magic and science (and often, flesh -- sometimes of the unfortunate willworker themselves).
+
+The chances of discovery among the Sleepers skyrocketed, and other supernatural entities were already prowling around the gate. Tensions between the Guardian-run Consilium and the Free Council reached a boiling point, threatening to erupt in violence unseen since the Nameless War more than a century ago.
+
+Ultimately, however, an uneasy compromise was negotiated. The Assembly, wanting to reduce losses and avoid an all-out conflict, agreed to more closely police their own, rather than allow the Consilium to start picking off the stragglers.
+
+Thus, the Triumvirate was born.
+
+While some in the Assembly grumble about their existence in the first place, claiming that this sort of Hierarchy is anathema to democratic ideals, many recognize the need for such a body -- if for no other reason than ultimately, it helps to preserve their freedom, and three individuals is still more democratic than a single Strategos.
+
+The Triumvirate brings charges against unwise mages who threaten to damage the 'Free' part of the Free Council, or those who recklessly risk exposure or destruction, acting as an independent police force and Court of Law (with the aid of the Minutemen and Citizen Agents), but not as a traditional legislative body. That task is still left to the Assembly.
+
+On very rare occasions, the Council and the Triumvirate will sit in judgment together on disputes between members of both bodies, important city-wide matters, or serious crimes against Wisdom. In these cases, all eight members sit in judgment, with the Hierarch's vote determining the final outcome in the event of a tie. 
+
+'''The Triumvirate''':
+
+* [[Character:Justice Aditi|Justice Aditi]] - Aditi is regularly called the soul of the Triumvirate. Compassionate and empathetic, she has made it her mission to show others that you can make astounding changes to the world through your own small acts of will, a special form of magic in its own right. She is patient and wise, but is fierce when it comes to defending the innocent from the excesses of entitled willworkers with no impulse control, though her judgments are fair and measured. 
+
+* [[Character:Justice Flashpoint|Justice Flashpoint]] - Flashpoint, as his name suggests, is less the patient sort and more the passionate sort. He strongly believes that the followers of the Lie need to be utterly destroyed, and all of their trappings burned to ash. Slash and burn is sometimes the only way to ensure that the future fields are fertile. Like Aditi, he can be ruthless when it comes to confronting threats to the innocent, and often acts as the one to ensure that offenders are not let off too lightly.
+
+* [[Character:Justice Theorem|Justice Theorem]] - Theorem, unlike the other two, is not a creature of the heart, but of the mind. Her dispassionate analysis, while sometimes seen as cold and distant, offer unprecedented insight into the nature of proceedings. She firmly believes that passion cannot be trusted, as human excesses are a part of the lie, but the pure truth of empiricism (coupled with a bit of supernal knowledge) can show the flaw in the Lie. She offers a measured, even response in trials, looking to find the true scope of the damage.
+
+=====The Seers=====
+
+The Seers of the Throne have been in Portland for as long as the Consilium has been here. Possibly even longer.
+
+Almost nothing is known of their numbers or activities in Portland. What is known is that they are here, and all four of the Greater Ministries are represented, along with a number of Lesser Ministries. 
+
+Unlike other places in Portland, where tensions between the Seers and the Pentacle can result in bloodshed or outright conflict, both sides have maintained an easy truce -- at least when it comes to outright killing. Both sides still try to gain an advantage over the other, but the Consilium forbids the murder of a Seer of the Throne, and no Seer has been known to kill a member of the Diamond in over a decade.
+
+Still, the mages seize every opportunity to screw each other over short of killing, occasionally pulling in mortal authorities into their affairs, such as law enforcement and the justice system. While murder might be prevented by mutual agreement, almost anything else goes.
+
+What the Seers are working on tends to be anyone's guess, in the end. But a few rumors suggest that there are factions working within the Seers to undermine the work of the Great Ministries. And it doesn't take a wild leap of logic to know that the Ministries would be worried about the Broken Tapestry -- after all, it shows that the Lie is imperfect and flawed, and risks exposing Sleepers to the truths of Awakened Magic.
+
+Some members of the Diamond maintain fragile alliances with members of the Seers. While such a practice is not forbidden, so long as nothing is revealed to the other side that shouldn't be, it's frowned upon by the more traditional mages of the Consilium, and viewed as borderline treason by the Free Council. 
+
+Still, surprising insights have sometimes come from these liaisons, so the Council and the Triumvirate both tolerate it -- barely.
+
+=====The Diamond Orders=====
+
+
+Records of when the Diamond arrived in Portland are sparse, at best. Anything beyond ten years is difficult to find, usually being lost due to magical accident or obscured away by paranoid mages working hard to protect their secrets. But the state of the Orders currently are well-known:
+
+'''''The Silver Ladder:''''' The Silver Ladder works diligently in Portland to advance the position of both Awakened and Sleeper alike. The Order is small, but the few members that they have work diligently to put the full extent of their collective resources to use. These mages find a place in Portland working as counselors, social workers, attorneys and judges, or any other position where they can advance the philosophy of the Elemental Precepts. The members are tight-knit and, while not necessarily completely trustful of one another, are always willing to lend their fellows a hand -- because [[Character:Magister Domina]], the local leader, will broker no nonsense to the counter. An Awakened asking for help is a rare opportunity to work favor and advance the position of the Order, and those who fail to fall in line and lend their aid face harsh reprimand &mdash; something which no member of the Order can afford, in a city this dangerous. 
+
+'''''The Guardians of the Veil:''''' Whereas the Ladder works in the light, steering humanity toward Awakening, the Guardians work in the shadows, steering them away from dangerous Mysteries and occluding the Truth to all but the most worthy. The Guardians of the Veil have slightly more members than the Adamantine Arrow, making them the largest and most powerful Order in the city. The Guardians can be found in all walks of life -- the grocery checkout boy who keeps an eye on the local populations for signs that they know too much, the police officer working the night shift to ensure he has en excuse to be where others shouldn't, the conspiracy blogger seeding lies to steer the Sleepers away from things which could do them harm -- all Guardians work diligently, each cell isolated from the others but directed by the local Epopt, [[Epopt Nemo|Nemo]]. These Guardians are true believers and zealots, to a man, each of them fully committed body and (almost literally) soul to the cause of preventing the misuse of the Art and preventing the further corruption of the world. 
+
+'''''The Adamantine Arrow:''''' Firmly committed to the defense of both Sleepers and Awakened alike, the Arrow has had to contend with the fact that the most powerful and showy of their magics are also the most likely to cause unintended harm. Thus, the Order has had to resort to different, more subtle tactics -- indirect magics that are far less showy gracefully complimenting their already keen physical prowess. The challenge that this presents tends to draw Arrows from around the area, each of them committed to finding out the value in this broken reality, the truest expression of the Hand. While the Arrow has no Adamant Sage in Portland, with its members the most prone to dying fast and harsh, Thunderbolt Guardian Petros leads the members of the Arrow, teaching them dynamic new tactics and ensuring that the Arrow are more than a gang of magical thugs. 
+
+'''''The Mysterium:'''''
+
+
+=====The Free Council=====
+
+=====Other Awakened=====
+
+As with all cities, there exists a number of unaligned Awakened in Portland. Banishers prowl in the dark, their passions stoked ever-onward by the increasing damage magic does to the world. Left-Handed mages of dark legacies form small, dangerous cabals working to undermine the efforts of the Diamond and the Seers alike. And solitary apostates, refusing to bend a knee to either the Free Council or the Diamond Orders, work in secret in remote corners of the city, pursuing their own agendas -- though what those might be, no one can say. Still, if it's strong enough to keep them in Portland, despite the danger, it must be important. Right?
+
+====Known Mysteries====
+
+* '''The Broken Tapestry''' - The reality of Portland has warped and shattered. While the Quiescence covers this for the most part, and the Lie has suitably flowed over the scars to keep it from the eyes of Sleepers and most Supernaturals, to Mages, it's as clear as day. It ''feels'' wrong here, and under Focused Mage sight, one can see the deep faults and strange geometries that govern this place, leaving an ever-shifting maze of spider-webbing damage like a bullet through glass. Nobody knows when it appeared, or what caused it, though speculation abounds. What is known is simple -- the rules have changed, and the Lie has started to splinter, no longer completely covering the things that Sleepers are not meant to see. Whether this is a blessing or a curse, though, remains to be seen. 
+
+* '''Echoes''' - As every mage discovers, magic here behaves differently. While most spells can be successfully drawn into this tangled, nebulous web, many do not stay as neatly contained as they should. Magic leaks out along these fissures in reality, causing minor after-effects in unpredictable ways. While many assume that this is some strange form of Paradox, those who examine this Mystery closely quickly learn that the touch of the Abyss is absent -- or when the Abyss does touch magic, the effect is infinitely worse. The spells that a Mage has practiced seem less affected by this, for reasons unknown -- rotes and praxes are safer (but by no means safe) than improvised spells. Worse yet, through some unknown mechanism, these echoes seem to seek out those closest to the mage, or affected by their Nimbus.
+
+* '''Wild Magic''' - But magic can sometimes bleed out into the world all on its own. Spells seemingly summoned by no one run through Portland on the rare occasion, bleeding through this cracked reality in ways that not even the most enlightened Masters can mimic, seemingly driven of their own free will. Some mages believe that studying these spells holds the key to Ascension. Others believe that this magic, wherever it comes from, presents the most clear and present danger to the city that anyone has ever seen. Tensions between the two ideologies run high, and more than one mage has been willing to kill or die for this belief. 
+
+* '''The Astral Storm''' - The cracks in reality don't just run through the physical though. Even the Tenemos of this place is affected, manifesting itself as a violent storm that can sometimes reach into the minds of Dreamers, drawing dreamstuff out into the world. Mages race to try and put things in order, before the literal stuff of nightmares causes too much damage.
+
+* '''Disharmonia''' - Portland is a melding pot of different cultures and personalities, a haven for those who strive so hard to find their own way. Or at least, it should be. But lately, things have been different. Communities that once banded together under the banner of having nobody else to rely on have started to crumble and fall apart as neighbors grow increasingly distrustful of one another, and any sense of unity is lost. What's causing it is anyone's guess, really. The Sight reveals connections all over the city, an intricate web of discordant notes too precise to be random. The effects are always subtle, and don't seem to come from a singular source, but the effect is clear enough -- something is sowing discord among the different people's here, turning neighbor against neighbor. Selene intends to figure out exactly what's behind this, and put a stop to it, before this city tears itself apart with mistrust.
+
+===Chargen===
+
+====Mage Sphere Application Requirements====
+
+Mage applications are a bit more intensive than other types of applications on Echoes. This is because mages, as a whole, are a more complex splat, and we'll be requiring additional information from mage applications so that we can ensure consistency across the board and get a feel for where each individual mage fits in with the community. As such, the following are MANDATORY unless and until I am vetoed (yes, you still get the xp for them). You don't have to write me a book, but I need at least basic information (like, a medium sentence or two -- examples will be forthcoming) about:
+
+=====Background Questionnaire=====
+
+* What was your character like before they Awakened? Was there always something off about them, or did Awakening come as a surprise? DId they have any prior experience with the supernatural before Awakening? How did Awakening change them?
+
+:::: Example: Selene grew up a normal girl from a middle class working home. Awakening hit her like a freight train at full force, showing her a whole new world that she had no idea ever existed. Although the Mysterium assured her that her soul was prepared, even if her mind was not, the fact that the experience nearly broke her still causes her to wonder if the magic didn't make a mistake, initially.
+
+:::: Example: Shenan was never 'normal'. The voices in his head had been with him since he was a child, and the heroin he used to dull them down only ostracized him further from everyday reality. When he Awakened, he almost didn't even notice. His world was already a shifting nightmare of maddening symbols and strange whispers. Awakening helped him see the meaning behind them.
+
+
+* What was your mage's initial training like? How did they find their mentor? When and why did they join their Order? What areas did they feel drawn to in their initial training? How are they using this training to explore the Supernal World around them? (Your Mage's starting Obsessions should at least be covered here)
+
+* How did your mage join their cabal (if applicabale)? If not in a cabal, why did your mage choose to venture out on their own, and how has this impacted their lives? (Solitary mages in Portland are highly distrusted, subject to some abuses given their lack of any legal clout, and this will be reflected in how the Consilium/Assembly deals with them)
+
+* Has your character joined a Legacy? When and why did that particular legacy appeal to them? (Note: Legacies require steep committment to their causes, and do not exist as a grab bag of neat powers that you can ignore the theme of. Staff reserves the right to deny any Legacy request that we feel doesn't match up with what we want to see.)
+
+* When did your character arrive in Portland? (See Restricted Concepts, below)
+
+* How has your character managed to stay off the radar of the other supernaturals? How have they managed to avoid disruptive Echoes? What is their relationship to the current power structure?
+
+=====Chargen Checklist=====
+
+Think you're done? Make sure! Have you...
+
+
+* Set a note for your nimbus?
+* Set a note for your Nimbus Tilt?
+* Set a note for your magical tools?
+* Filled out the background questionnaire?
+* Given some though to what is keeping your character in Portland? (Harvester will work with you on this one.)
+* Set any other required notes? (Mentor, Professional Training, Etc?)
+* Done your initial xp spends and/or put in for your starting incentives?
+* Have you made sure that you meet the prerequisites for your starting Legacy? Talk to Harvester for more. 
+
+====Restricted Concepts====
+
+I.e., stuff we don't want to see.
+
+I know that you're all eager to get things going, so let me tell you what we're not allowing at this time, to pare down the field. As usual, staff reserves the right to deny any application that we think crosses too far over into one of these areas, and this list is subject to expansion as we see people try and do things we didn't think about before:
+
+* '''Left-Handed Mages/Legacies''' - Yeah, we know that playing the evil soul-stealing warlock anarchist that's out to burn everything to the ground is cool for some people, but we're just getting the sphere open, and before we go throwing grenades into the works, let's get the works established first, yeah? We might open these some day, but not today. 
+
+:::: Potential Exception: If you want a traditionally Left-Handed Legacy, we MAY allow it if you pitch the Legacy to us and explain how you're going to use it for the good of the game, instead of being a pain in the ass. I'm not a *monster*. But the default answer is 'no' unless you give me something that intrigues me. 
+
+* '''Edgy Loner Rebel Counterculture Apostates''' - Yes, I know that some of you will grumble about this, but we're trying to build a community in these first few days. Like left-handed Mages, the Lone Wolf fuck-the-man I DO WHAT I WANT concepts are probably fun for some people, but they make it extremely hard to build an active storytelling community when the game first opens. You've all probably seen this happen enough times now that you know the problem.
+
+:::: Can you play an Apostate? YES. But you should have at least a good working social connection to some members of the Order, and be working to actively engage with the Awakened Community for everyone's benefit.
+
+* '''Order Rebel Concepts''' - E.g., you're part of your Order, but you go against the grain of everything they stand for and somehow haven't gotten your ass kicked out (or worse), and basically are a functional Edgy Loner Apostate with extra sheet bennies. '''''This includes people who just create a Free Council character because they think it will let them do whatever they want because democracy! The Free Council has a very clear mission statement, and we are not allowing concepts that just get thrown in to avoid having the Apostate tag. You have been warned.'''''
+
+:::: You CAN play characters that, for one reason or another, have lost good standing with the Order, but are trying to make their way back into good graces. Did you seriously fuck something up? Are you trying to atone for it? That's great story fodder, and isn't covered under this banner. If you have questions, hit me up.
+
+* '''Newly Awakened / IC Awakenings''' - These aren't going to be restricted ''forever''. But they're going to be restricted at the opening of the game. Why? Well, frankly, we don't have the number of staff or players around to dedicate the amount of resources necessary to walking a newly Awakened mage through their first baby steps. It's an RP and other-resources-intensive endeavor that is rarely fun for anyone involved. Even when we open IC Awakenings back up, we're going to have a few caveats in place to ensure that nobody is getting bogged down with this stuff. 
+
+::::What does this mean, functionally? It means, at minimum, your character should have undergone their basic training and have a working knowledge of what being a Mage is all about. Concepts that have been Awakened under one year, or who otherwise don't show that they've been given knowledge enough to act on their own in a responsible manner, will be denied.
+
+* '''Mages Here More Than Ten Years''' - This one is going to sound kind of strange, but bear with me. Portland is a dangerous and unforgiving magical landscape for mages. Frequent accidents have occurred, due to the Wild Magic and the Mists, unexpected Echoes, the influence of other supernatural forces, etc. As such, many mages leave (or die) prematurely, as friends disappear and their work gets destroyed. 
+
+:::: While it's possible to be a Portland native (again, I'm not a *monster*), their Awakening should have been within the past decade, and we'll need to work together more closely to determine what they've been doing in that time. Most records of Awakened history past a decade ago have been destroyed, and Time magic is unreliable. Therefore, you shouldn't app a thing that destroys some of the mystery of the sphere. Dig? Cool.
+
+
+* '''Stat Caps at Chargen / Overall''' - Characters may not start with an Arcanum higher than 3 or a Gnosis higher than 5, after starting xp is spent. Characters may not start with an Order Status greater than 2, or a Consilium Status greater than 3 (Herald) if the character has a cabal, 2 otherwise (Sentinel). Furthermore, 'leadership' level status will be restricted to Order 3/Consilium 4 -- if you're buying Status, expect to work with us on it, and again, staff reserves the right to say no. Characters starting with a Legacy must meet the pre-requisites for that Legacy (I'll get them on the wiki eventually, if you want to know what they are page me and I'll send you a thing).
+
+
+===House Rules===
+
+===FAQ===
+
+'''Q: Nobody else has mandatory backgrounds. No other sphere has to do them. Why do mages?'''
+
+A: Because you have to write one anyone to completely the character! As you can see, Mage is a much more involved game, and a mage's background, training, and mindset have a lot to do with how they get played, how they fit in, etc. While this information isn't necessarily as important in some other spheres, in Mage? It's essential information. You have to know what your Mage's Obsessions are, what they're doing to work toward them, and why they drive them. Nobody is sitting around a magical wasteland sipping coffee and poring over and old book, here. Something brought them here, or is keeping them here. Something lit a fire under their ass, and it's driving them forward. It's called an Obsession for a reason. 
+
+More importantly, I need to know what your mage's obsessions, goals, background, etc are so that I can figure out how we're going to piece this all together. I need something to go off of if you're gonna come in to this big moving machine, and I need to know that you're not gonna either sit around doing nothing or actively impede what's been happening. So you're writing a background, and we're working together to make sure that everyone has an awesome time and has stuff to do. I can't do that if you come in with a blank slate.
+
+TL;DR -- You essentially have to write one *anyway* just to figure out what your Obsessions are, and we're gonna be working together anyway. So why not make it official and get free xp? Sweet, right? 
+
+
+'''Q: Why are the wait times on Arcana so long?'''
+
+A: This one is easy -- because there just aren't that many of them. There are a total of 50 dots in Arcana, way, way less than the power lists of most other spheres. And frankly, you can do way more with them. So the wait times on Arcana are long and spaced out, because it's not a race to the finish. It's a story about the journey. We encourage you to invest in other things, and not use magic as your be-all, end-all of all things. That doesn't work in Portland, anyway. Magic is just as likely to make it worse as it is to make it better. If you're looking for a race to the top, this probably isn't the sphere for you. We're playing the long game here.
+
+
+'''Q: Can I be a Councilor/Hierarch/Order Head?'''
+
+A: Short answer? No. Your status will be capped below leadership levels, and even mid-high status will be scrutinized. The reason for this is pretty simple, too -- in all other games with PC leaders for Mage, things have simultaneously gone off the rails because nobody was enforcing anything, and stagnated because nobody was doing anything. People always claim they're going to, and then never do. Or if they do, it's to subvert everything that's been done so far and try to install a New Regime. And I'm not interested in seeing everyone's work go down the drain so that someone can sit in the big chair. 
+
+So I'm bypassing that. Control will be maintained by NPCs, which ensures that someone is always there to take action and keep the theme of the game consistent. There will be plenty of other things for you to do.
+
+'''Q: Why isn't the Council organized by Order? / Why isn't the Free Council a part of the Consilium?'''
+
+A: So this is two related questions. First, a Consilium is not usually structured by Order. It's done by Path. This ensures that the decisions are done with Supernal Authority. There's quite a bit of content in the book about it. Other games have done it by Order because it was either easier for them to do it, or they didn't understand this point. Either way, it's always a bad idea. It effectively negates Order leadership because you have this other authority figure for the Order that you answer to.
+
+Secondly, the Free Council has never been a part of the Consilium. Hell, that's the entire reason that the Free Council exists. They fought for their independence from both the DIamond Orders ''and'' the Seers of the Throne. They maintain their own system, seperate from that of the old ways, called an Assembly. The alliance between the Diamond and the Free Council is called the Pentacle, and they work together -- but there's no way in hell that the Free Council fought so hard to get out on their own just to come back under the wing of the Consilium. It's all there in the various book. I'm not making this up. Other games just haven't done it for the same reason that they make it Order-based instead of Path-based.
+
+Frankly, I think this way is better. So that's what we're going to do.
+
+
+''More things to come in other areas as I get them written out.''
