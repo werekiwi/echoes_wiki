@@ -1,0 +1,352 @@
+<noinclude><h2>Create Character Page</h2>
+<h3>The instructions below are important. FOLLOW THEM.</h3>
+* Enter your character's '''''first and last name''''' in the box after ''Character:''
+* Just use first and last name. No middle names, no nicknames in quotes. Just first and last name. If you have a very long name with multiple parts, nicknames, or aliases, there is optional space on the form later where you can add all of this. Exceptionally long names will break our listings, and nobody's got patience for that.
+* If the name includes any special punctuation, such as apostrophes, dashes, or accented characters ''do not include it in the page name''. Only use A through Z, in upper and lower case, and ''spaces''. There's a place on the form where you can safely include these elements, and they will display properly across the wiki without breaking things.
+* Do not include underscores. The wiki will insert them for you as needed.
+
+{{#forminput:form=Character|size=30|default value=Character:|button text=Create Character Page}}
+</noinclude><includeonly>__NOEDITSECTION____NOTOC__{{{for template|Character}}}
+<h2>How to use this page</h2>
+<h3>Follow the instructions provided in each section of the form.</h3>
+
+<h3>Use the tab buttons below to skip among the various sections as needed.</h3>
+<br>
+
+<!--
+
+UNIVERSAL REQUIREMENTS TAB
+
+-->
+
+<h1>Universal Requirements</h1>
+
+<div class="berxberx"><div class="berx" style="width: 300px; min-width: 300px; max-width: 300px;"><h5>Name</h5>
+;Name (required)
+:Keep this relatively short. There's an optional space for your full name later.
+:{{{field|name|mandatory}}}
+
+;on MUX as (required)
+:Your login name on the MUX.
+:{{{field|muxname|mandatory}}}
+
+;is an NPC?
+:{{{field|npc|input type=dropdown|values=no,yes|default=no|mandatory}}}
+</div>
+<div class="berx" style="width: 300px; min-width: 300px; max-width: 300px;"><h5>Basics</h5>
+;Concept (required)
+:{{{field|concept|mandatory}}}
+
+;Activity (required)
+:{{{field|activity|input type=dropdown|values=Active,Inactive,Potential,Dead,Testbit|default=Potential|mandatory}}}
+
+;Main Image (required)
+:Start typing the name of your image file, and the form should start to autofill from there.
+:{{{field|portrait|input type=text with autocomplete|values from namespace=File}}}
+</div>
+<div class="berx" style="width: 300px; min-width: 280px; max-width: 300px;"><h5>Age</h5>
+;Apparent Age (required)
+:{{{field|apparentage|mandatory}}}
+
+;Birth Date (required)
+:Must include year.
+:All characters must be 18 years of age or older.
+:{{{field|dob|mandatory}}}
+
+;Played-By
+:Must look like an adult.
+:{{{field|pb}}}
+</div>
+<div class="berx" style="width: 596px; min-width: 596px; max-width: 596px;"><h5>Introduction</h5>
+;Overview (required)
+:{{{field|overview|input type=textarea|rows=2|mandatory}}}
+
+;Hooks:Add character hooks here.
+:{{{field|hooks|holds template}}}
+
+;Faction:Any group affiliation can be placed here.
+:{{{field|factions|holds template}}}
+</div></div>
+
+<!--
+
+UNIVERSAL SHEET TAB
+
+-->
+
+<h1>Universal Sheet</h1>
+
+<div id="sheet">
+<h2>Required Section</h2>
+<div class="berxberx"><div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Template</h5>
+;Template (required)
+:{{{field|template|input type=dropdown|values=Atariya,Ghoul,Lost Boy,Mortal,Psychic,Psychic Vampire,Vampire,Werewolf,Wolf-Blooded|default=Mortal|mandatory}}}
+</div>
+<div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Sheet Display</h5>
+;Do you want to display your sheet?
+:{{{field|sheet|input type=dropdown|values=yes,no|default=no|mandatory}}}
+
+If you chose to display your sheet above, you need to fill out the optional section below.
+
+You will notice that not all of the options are there; '''''many will only be available on the page for your sphere, when he sphere tabs become available.'''''
+</div></div>
+
+<h2>Sphere Section</h2>
+<h6>This section is optional.</h6>
+<h6>Sheet Display does ''not'' need to be checked.</h6>
+<div class="berxberx"><div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Vampire</h5>
+;Clan:{{{field|clan|input type=dropdown|values=Daeva,Gangrel,Mekhet,Nosferatu,Ventrue}}}
+;Covenant:{{{field|covenant|input type=dropdown|values=Carthian Movement,Circle of the Crone,Invictus,Lancea et Sanctum,Ordo Dracul,Unbound}}}
+;Bloodline:{{{field|bloodline|input type=dropdown|values=Adrestoi,Agonistes,Alucinor,Anvari,Architects of the Monolith,Asnam,Azerkatil,Baddacelli,Bruja,California Xiao,Childer of Morrigan,Cockscomb Society,Dead Wolves,Die Nachtwache,Dragolescu,Duchagne,Galloi,Gorgons,Hounds of Actaeon,Icarians,Kerberos,Khaibit,Lygos,Lynx,Macellarius,Mara,Mnemosyne,Noctuku,Norvegi,Salubri,Sangiovanni,Septemi,Shepherds,Sons of Cade,Spina,Toreador,Tzimisce,Yagnatia,Zelani}}}
+</div>
+<div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Werewolf</h5>
+;Auspice:{{{field|auspice|input type=dropdown|values=Cahalith,Elodoth,Irraka,Ithaeur,Rahu}}}
+;Tribe:{{{field|tribe|input type=dropdown|values=Blood Talons,Bone Shadows,Hunters in Darkness,Iron Masters,Storm Lords,Ghost Wolves}}}
+;Lodge:{{{field|lodge|input type=dropdown|values=Arms,Cerberus,Crows,Death,Doors,Faceless,Gargoyles,Garm,Harbingers,Harmony,Hook Hand,Lightning,Prophecy,Scrolls,Seasons,Swords,Chronicle,Einherjar,Screaming Moon,Shield,Thousand Steel Teeth,Thunder,Voices,Wendigo,Winter,Wrath}}}
+</div></div>
+
+<h2>Optional Section</h2>
+<h3>Attributes</h3>
+<div class="berxberx"><div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Mental</h5>
+{{FL|{{{field|intelligence|input type=dropdown|values=1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Intelligence'''}}
+{{FL|{{{field|wits|input type=dropdown|values=1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Wits'''}}
+{{FL|{{{field|resolve|input type=dropdown|values=1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Resolve'''}}
+</div>
+<div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Physical</h5>
+{{FL|{{{field|strength|input type=dropdown|values=1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Strength'''}}
+{{FL|{{{field|dexterity|input type=dropdown|values=1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Dexterity'''}}
+{{FL|{{{field|stamina|input type=dropdown|values=1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Stamina'''}}
+</div>
+<div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Social</h5>
+{{FL|{{{field|presence|input type=dropdown|values=1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Presence'''}}
+{{FL|{{{field|manipulation|input type=dropdown|values=1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Manipulation'''}}
+{{FL|{{{field|composure|input type=dropdown|values=1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Composure'''}}
+</div></div>
+
+<h3>Skills</h3>
+When adding multiple specialties, separate them with a <nowiki><br></nowiki> tag.
+<div class="berxberx"><div class="berx" style="width: 300px; min-width: 280px; max-width: 300px;"><h5>Mental</h5>
+{{FL|{{{field|academics|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Academics'''}}
+;Academics Specialties:{{{field|specacademics}}}
+{{FL|{{{field|computer|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Computer'''}}
+;Computer Specialties:{{{field|speccomputer}}}
+{{FL|{{{field|crafts|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Crafts'''}}
+;Crafts Specialties:{{{field|speccrafts}}}
+{{FL|{{{field|investigation|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Investigation'''}}
+;Investigation Specialties:{{{field|specinvestigation}}}
+{{FL|{{{field|medicine|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Medicine'''}}
+;Medicine Specialties:{{{field|specmedicine}}}
+{{FL|{{{field|occult|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Occult'''}}
+;Occult Specialties:{{{field|specoccult}}}
+{{FL|{{{field|politics|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Politics'''}}
+;Politics Specialties:{{{field|specpolitics}}}
+{{FL|{{{field|science|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Science'''}}
+;Science Specialties:{{{field|specscience}}}
+</div>
+<div class="berx" style="width: 300px; min-width: 280px; max-width: 300px;"><h5>Physical</h5>
+{{FL|{{{field|athletics|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Athletics'''}}
+;Athletics Specialties:{{{field|specathletics}}}
+{{FL|{{{field|brawl|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Brawl'''}}
+;Brawl Specialties:{{{field|specbrawl}}}
+{{FL|{{{field|drive|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Drive'''}}
+;Drive Specialties:{{{field|specdrive}}}
+{{FL|{{{field|firearms|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Firearms'''}}
+;Firearms Specialties:{{{field|specfirearms}}}
+{{FL|{{{field|larceny|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Larceny'''}}
+;Larceny Specialties:{{{field|speclarceny}}}
+{{FL|{{{field|stealth|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Stealth'''}}
+;Stealth Specialties:{{{field|specstealth}}}
+{{FL|{{{field|survival|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Survival'''}}
+;Survival Specialties:{{{field|specsurvival}}}
+{{FL|{{{field|weaponry|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Weaponry'''}}
+;Weaponry Specialties:{{{field|specweaponry}}}
+</div>
+<div class="berx" style="width: 300px; min-width: 280px; max-width: 300px;"><h5>Social</h5>
+{{FL|{{{field|animalken|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Animal Ken'''}}
+;Animal Ken Specialties:{{{field|specanimalken}}}
+{{FL|{{{field|empathy|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Empathy'''}}
+;Empathy Specialties:{{{field|specempathy}}}
+{{FL|{{{field|expression|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Expression'''}}
+;Expression Specialties:{{{field|specexpression}}}
+{{FL|{{{field|intimidation|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Intimidation'''}}
+;Intimidation Specialties:{{{field|specintimidation}}}
+{{FL|{{{field|persuasion|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Persuasion'''}}
+;Persuasion Specialties:{{{field|specpersuasion}}}
+{{FL|{{{field|socialize|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Socialize'''}}
+;Socialize Specialties:{{{field|specsocialize}}}
+{{FL|{{{field|streetwise|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Streetwise'''}}
+;Streetwise Specialties:{{{field|specstreetwise}}}
+{{FL|{{{field|subterfuge|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=0}}}|'''Subterfuge'''}}
+;Subterfuge Specialties:{{{field|specsubterfuge}}}
+</div></div>
+
+<h3>Miscellaneous</h3>
+<div class="berxberx"><div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Mortal + Mortal+</h5>
+{{FL|{{{field|integrity|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=7}}}|'''Integrity'''<br>(Mortal, Mortal+ Templates Only)}}
+</div>
+<div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Vampire</h5>
+{{FL|{{{field|humanity|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=7}}}|'''Humanity'''<br>(Vampires Only)}}
+{{FL|{{{field|bloodpotency|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Blood Potency'''<br>(Vampires Only)}}
+</div>
+<div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Werewolf</h5>
+{{FL|{{{field|harmony|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=7}}}|'''Harmony'''<br>(Werewolves Only)}}
+{{FL|{{{field|primalurge|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Primal Urge'''<br>(Werewolves Only)}}
+</div>
+<div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Universal</h5>
+{{FL|{{{field|willpower|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=4}}}|'''Permanent Willpower'''}}
+{{FL|{{{field|defense|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=7}}}|'''Defense'''}}
+{{FL|{{{field|speed|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=4}}}|'''Speed'''}}
+{{FL|{{{field|size|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=5}}}|'''Size'''}}
+{{FL|{{{field|initiative|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=7}}}|'''Initiative'''}}
+</div></div>
+
+</div>
+
+<!--
+
+CONTACTS TAB
+
+-->
+
+<h1>Contacts</h1>
+
+<div class="berxberx"><div class="berx" style="width: 596px; min-width: 596px; max-width: 596px;"><h5>Contacts</h5>
+;Contacts:Add contacts here.
+:{{{field|contacts|holds template}}}
+</div></div>
+
+<!--
+
+ASPIRATIONS TAB
+
+-->
+
+<h1>Aspirations</h1>
+
+<div class="berxberx"><div class="berx" style="width: 596px; min-width: 596px; max-width: 596px;"><h5>Aspirations</h5>
+If you want to add and track your active and completed aspirations, you can do so here. It will create an Aspirations tab on your character page, which will allow you to see what your character has accomplished and track the progress of character goals over time.
+;Aspirations:Add an aspiration here.
+:{{{field|asp|holds template}}}
+</div></div>
+
+<!--
+
+EXTRAS TAB
+
+-->
+
+<h1>Details + Extras</h1>
+
+<div class="berxberx"><div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>More Names</h5>
+;Full Name:Here's where you can go nuts with a crazy long name.
+:{{{field|fullname}}}
+
+;Alternate Identities:These are IC aliases -- alternate identity merit or otherwise. Could be past IDs as a vampire, witness protection program, hacker alias, gang name, etc. Separate them with a <nowiki><br></nowiki> if you have more than one.
+:{{{field|aka}}}
+
+;Nicknames:These are personal IC nicknames. Separate them with a <nowiki><br></nowiki> if you have more than one.
+:{{{field|nickname}}}
+</div>
+<div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Gallery</h5>
+;Gallery:10 image maximum.
+:These will display small; keep them between 400-800px. DO NOT upload huge images for your gallery.
+:{{{field|gallery|holds template}}}
+</div>
+<div class="berx" style="width: 596px; min-width: 596px; max-width: 596px;"><h5>Description</h5>
+;Description (optional)
+:Your character's description.
+:{{{field|desc|input type=textarea|rows=2}}}
+</div>
+<div class="berx" style="width: 596px; min-width: 596px; max-width: 596px;"><h5>Background</h5>
+;Background:Backgrounds are optional, but can provide incentives on the MUX. You can include yours here if you wish, in addition to on the MUX itself.
+:{{{field|background|input type=textarea|rows=6}}}
+</div></div>
+
+<!--
+
+CLOSE MAIN FORM
+CLOSE TABS
+
+-->{{{end template}}}
+<headertabs/><!--
+
+BEGIN SUPPLEMENTAL TEMPLATES
+
+--><!--
+
+IMG TEMPLATE
+
+-->
+{{{for template|Img|maximum instances=10|multiple|add button text=Add Gallery Image|embed in field=Character[gallery]}}}
+{| width=100%
+|-
+| valign=top style="padding-left: 24px;" |
+;Add Gallery Image:{{{field|img|input type=text with autocomplete|values from namespace=File}}}
+|}
+{{{end template}}}
+<!--
+
+HOOK TEMPLATE
+
+-->
+{{{for template|Hook|maximum instances=#|multiple|add button text=Add Character Hook|embed in field=Character[hooks]}}}
+{| width=100%
+|-
+| valign=top style="padding-left: 24px;" |
+;Hook Title:{{{field|title}}}
+;Hook Text:{{{field|text|input type=textarea|rows=2}}}
+|}
+{{{end template}}}
+<!--
+
+ASP TEMPLATE
+
+-->
+{{{for template|Asp|maximum instances=#|multiple|add button text=Add Aspiration|embed in field=Character[asp]}}}
+{| width=100%
+|-
+| valign=top style="padding-left: 24px;" |
+;Long or short?:{{{field|duration|input type=dropdown|values=long-term,short-term|default=short-term}}}
+| valign=top style="padding-left: 24px;" |
+;Status?:{{{field|status|input type=dropdown|values=complete,currently active,abandoned|default=currently active}}}
+|-
+| valign=top style="padding-left: 24px;" colspan=2 |
+;Aspiration:{{{field|text|input type=textarea|rows=2}}}
+|}
+{{{end template}}}
+<!--
+
+CONTACT TEMPLATE
+
+-->
+{{{for template|Contact|maximum instances=#|multiple|add button text=Add Contact|embed in field=Character[contacts]}}}
+{| width=100%
+|-
+| valign=top style="padding-left: 24px;" |
+;Add Contact:{{{field|contact|input type=text with autocomplete|values from namespace=Character}}}
+;Contact Note:{{{field|note|input type=textarea|rows=2}}}
+|}
+{{{end template}}}
+<!--
+
+FLINK TEMPLATE
+
+-->
+{{{for template|Flink|maximum instances=#|multiple|add button text=Add Faction|embed in field=Character[factions]}}}
+{| width=100%
+|-
+| valign=top style="padding-left: 24px;" |
+;Faction Name:{{{field|faction|input type=text with autocomplete|values from namespace=Faction}}}
+;Position:{{{field|position}}}
+;Role/Membership Description:{{{field|role|input type=textarea|rows=2}}}
+|}
+{{{end template}}}
+====Standard MediaWiki Inputs====
+The summary shown here is not a part of the custom form. This is the standard input that is used by mediawiki for all page edits, and is only shown in the page's history or the recent changes page. It's entirely optional, and is present in case you wish to make a note of why you have edited the page. This is particularly useful in cases in which you need to edit someone else's page, or when administrators edit parts of the site and need to provide a log of what changes they have made at that time.
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>

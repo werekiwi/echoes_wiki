@@ -1,0 +1,138 @@
+<includeonly>{{#default_form:Sphere}}[[Category:{{{sphere}}}]]__NOTOC____NOEDITSECTION____NOCACHE__{{DISPLAYTITLE:{{{sphere}}}|noreplace}}
+<h1>Main</h1>
+	{{#vardefineecho:sb|<div id="box" style="margin-right: -7px;">
+		<div class="divider">[[File:EchoesBreak.png|350px]]</div>
+		<h3 style="text-align: center;">Player Resources</h3>
+		<center>
+			<div class="drop">[[{{FULLPAGENAME}}#overview{{!}}Sphere Overview]]</div>
+			<div class="mini">The role and status of the sphere in Portland.<br>''(see Main tab)''</div>
+			<div class="drop">[[{{FULLPAGENAME}}#cast{{!}}Cast]]</div>
+			<div class="mini">Current and former characters in the sphere.<br>''(see Main tab)''</div>
+			<div class="drop">'''Application Guidelines'''</div>
+			<div class="mini">General and all specific application guidelines to get you started in the {{{sphere}}} sphere.<br>''(see CG tab)''</div>
+			<div class="drop">'''House Rules'''</div>
+			<div class="mini">All House Rules unique to the {{{sphere}}} sphere.<br>''(see House Rules tab)''</div>
+			<div class="drop">'''Custom Content'''</div>
+			<div class="mini">Custom Content created for the {{{sphere}}} sphere.<br>''(see Custom tab)''</div>{{#ifeq: {{{external-links| }}} 
+				| 
+				|
+				| <div class="drop">[[{{FULLPAGENAME}}#external-links{{!}}Useful External Links]]</div>
+				<div class="mini">Helpful off-wiki sphere resources online.<br>''(see Main tab)''</div>
+			}}{{#dpl:
+				|category={{{sphere}}} Sphere Resources
+				|include={File}.summary
+				|ordermethod=title
+				|noresultsheader=<div class="mini">''No sphere resources found.''</div>
+				|listseparators= ,
+			}}<br>
+		</center>
+		<div class="divider">[[File:EchoesBreak.png|350px]]</div>
+		<h3 style="text-align: center;">Sphere NPCs</h3>
+		<center>
+                {{#dpl:
+			|category={{{sphere}}} NPC
+			|uses=Template:Character
+			|noresultsfooter=<div class="mini">''No sphere NPCs found.''<div><br>
+			|listseparators= ,<br>
+		}}
+
+		</center>		
+		<div class="divider">[[File:EchoesBreak.png|350px]]</div>
+	</div>}}
+	<div class="tb">
+		{{#ifeq: {{{status| }}} 
+			| no 
+			| '''''The sphere is currently closed, and is not accepting applications at this time.'''''
+			| '''''The sphere is currently open, and is accepting applications at this time.'''''
+		}}
+		
+		<span id="#overview"></span>{{#ifeq: {{{overview| }}} | | <span style="color: #ba0600 !important; font-size: 14pt !important;">'''''This sphere still needs an overview block!'''''</span> | {{{overview}}} }}
+				
+		{{#ifeq: {{{external-links| }}} 
+			| 
+			| 
+			| 
+			<span id="#external-links"></span><h2>Useful External Links</h2>
+			{{{external-links}}} 
+		}}
+	</div>
+<h1>Cast</h1>
+{{#var:sb}}
+<div class="tb">
+	<span id="#cast"></span><h2>Active Cast</h2>
+	<div class="berxberx">
+		{{#dpl:
+			|category=Characters&Active
+			|category={{{sphere}}}{{!}}{{{subsplat}}}
+			|uses=Template:Character
+			|ordermethod=title
+			|include={Character}.icon
+			|noresultsfooter=''No cast found.''
+			|listseparators= ,
+		}}
+		<div style="clear: left;"></div>
+	</div>
+	<h3>The Fallen</h3>
+	<div class="berxberx">
+		{{#dpl:
+			|category=Characters&Dead
+			|category={{{sphere}}}{{!}}{{{subsplat}}}
+			|uses=Template:Character
+			|ordermethod=title
+			|include={Character}.icon
+			|noresultsfooter=''No dead cast found.''
+			|listseparators= ,
+		}}
+		<div style="clear: left;"></div>
+	</div>
+	<h3>Potential Characters</h3>
+	<div class="berxberx">
+		{{#dpl:
+			|category=Characters&Potential
+			|category={{{sphere}}}{{!}}{{{subsplat}}}
+			|uses=Template:Character
+			|ordermethod=title
+			|include={Character}.icon
+			|noresultsfooter=''No potential cast found.''
+			|listseparators= ,
+		}}
+		<div style="clear: left;"></div>
+	</div>
+</div>
+<h1>CG</h1>
+{{#var:sb}}
+	<div class="tb">
+		<span id="#applications"></span><h2>Application Requirements</h2>
+			<h3>General Application Requirements</h3>
+                        <div style="padding-left: 0px !important;">
+                        {{:MUX:General Application Guidelines}}
+                        </div>
+			<h3>{{{sphere}}} Sphere Application Requirements</h3>
+				{{#ifeq: {{{application| }}} | | <span style="color: #ba0600 !important; font-size: 14pt !important;">'''''This sphere still needs an application info block!'''''</span> | {{{application}}} }}
+				
+</div>
+<h1>House Rules</h1>
+{{#var:sb}}
+	<div class="tb">
+		<span id="#houserules"></span><h2>House Rules</h2>
+			{{#dpl:
+				|category={{{sphere}}} House Rules
+				|include={File}.data
+				|noresultsfooter=''No house rules found.''
+				|listseparators= ,
+			}}
+
+</div>
+<h1>Custom</h1>
+{{#var:sb}}
+	<div class="tb">
+		<span id="#customcontent"></span><h2>Custom Content</h2>
+			{{#dpl:
+				|category={{{sphere}}} Custom Content
+				|include={File}.data
+				|noresultsfooter=''No custom content found.''
+				|listseparators= ,
+			}}
+</div>
+<headertabs/>
+{{#default_form:Sphere}}</includeonly>

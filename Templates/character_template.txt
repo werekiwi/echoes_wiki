@@ -1,0 +1,470 @@
+<includeonly><!--
+
+ESTABLISH PAGE BASICS
+
+-->{{#default_form:Character}}{{DISPLAYTITLE:{{{name}}}|noreplace}}__NOTOC____NOEDITSECTION____NOCACHE__<!--
+
+BEGIN HIDDEN SETUP
+
+--><div style="display: none;">
+
+Establishing our variables and categories here!
+
+[[Category:Characters]]
+[[Category:{{{activity}}}]]
+[[Category:{{{template}}}]]
+{{#ifeq: {{{npc| }}} | no | [[Category:PCs]] | [[Category:NPCs]] }}
+{{#ifeq: {{{clan| }}} | | | [[Category:{{PAGENAME:{{{clan}}}}}]] }}
+{{#ifeq: {{{covenant| }}} | | | [[Category:{{PAGENAME:{{{covenant}}}}}]] }}
+{{#ifeq: {{{bloodline| }}} | | | [[Category:{{PAGENAME:{{{bloodline}}}}}]] }}
+{{#ifeq: {{{auspice| }}} | | | [[Category:{{PAGENAME:{{{auspice}}}}}]] }}
+{{#ifeq: {{{tribe| }}} | | | [[Category:{{PAGENAME:{{{tribe}}}}}]] }}
+{{#ifeq: {{{lodge| }}} | | | [[Category:{{PAGENAME:{{{lodge}}}}}]] }}
+{{#ifeq: {{{faction| }}} | | | [[Category:{{PAGENAME:{{{faction}}}}}]] }}
+
+</div><!--
+
+CLOSE HIDDEN SETUP
+BEGIN FIRST TAB
+
+--><h1>Main</h1><!--
+
+BEGIN MAIN SIDEBAR BOX
+
+--><div id="box" style="margin-right: -7px;">
+	<div class="divider">[[File:EchoesBreak.png|350px]]</div>
+	<center>
+	{{#ifeq: {{{portrait| }}} 
+		| 
+		| {{#switch: {{{template| }}}
+			| Mortal
+			| Ghoul
+			| Wolf-Blooded=[[File:Mortal.png]]
+			| Psychic
+			| Atariya
+			| Lost Boy
+			| Psychic Vampire=[[File:SecondSight.png]]
+			| Vampire=[[File:Vampire_Face.png]]
+			| Werewolf=[[File:Werewolf_the_forsaken.png]]
+		}} 
+		| [[File:{{{portrait}}}|330px]] 
+	}}
+	<h3>{{{name}}}</h3>
+	{{SBT|{{#ifeq: {{{concept| }}}
+		| 
+		| ''Concept Unset''
+		| {{{concept}}} 
+	}} }}
+	{{SBL|on MUX as|{{{muxname}}} }}{{#ifeq: {{{pb| }}}
+		|
+		|
+		| {{SBL|Played by|{{{pb}}} }}
+	}}{{#ifexist: Card:{{PAGENAME}} 
+		| <div>&bull;&nbsp;[[Card:{{PAGENAME}}{{!}}Calling Card]]&nbsp;&bull;</div>
+		| <div>[[Card:{{PAGENAME}}{{!}}Create Calling Card Page]]</div>
+		<div class="mini" style="padding-right: 8px; padding-left: 8px;">Your calling card page is a traditional blank wiki page you can format however you wish for your character without a form or stock template.</div>
+	}}</center>
+	<div class="divider">[[File:EchoesBreak.png|350px]]</div>
+	<center>
+	<h3>Vital Statistics</h3>{{#ifeq: {{{fullname| }}}
+		|
+		|
+		| {{SBL|Full Name|{{{fullname}}} }}
+	}}{{#ifeq: {{{aka| }}}
+		|
+		|
+		| {{SBL|Alternate Identities|{{{aka}}} }}
+	}}{{#ifeq: {{{nickname| }}}
+		|
+		|
+		| {{SBL|Nickname|{{{nickname}}} }}
+	}}{{SBL|Date of Birth|{{{dob}}} }}
+	{{SBL|Apparent Age|{{{apparentage}}} }}{{#ifeq: {{{pob| }}}
+		|
+		|
+		| {{SBL|Place of Birth|{{{pob}}} }}
+	}}
+	</center>
+	<div class="divider">[[File:EchoesBreak.png|350px]]</div>
+	<center>
+	<h3>Sphere</h3>{{#switch: {{{template| }}}
+		| Mortal={{SBL|Template|[[Sphere:Mortal{{!}}Mortal]]}}
+		| Atariya={{SBL|Template|[[Sphere:Mortal{{!}}Atariya]]<br>([[Sphere:Mortal{{!}}Mortal]])}}
+		| Lost Boy={{SBL|Template|[[Sphere:Mortal{{!}}Lost Boys]]<br>([[Sphere:Mortal{{!}}Mortal]])}}
+		| Psychic={{SBL|Template|[[Sphere:Mortal{{!}}Psychic]]<br>([[Sphere:Mortal{{!}}Mortal]])}}
+		| Psychic Vampire={{SBL|Template|[[Sphere:Mortal{{!}}Psychic Vampire]]<br>([[Sphere:Mortal{{!}}Mortal]])}}
+		| Ghoul={{SBL|Template|[[Sphere:Vampire{{!}}Ghoul]]<br>([[Sphere:Mortal{{!}}Mortal]] + [[Sphere:Vampire{{!}}Vampire]])}}{{#ifeq: {{{regnant| }}}
+			|
+			|
+			| {{SBL|Regnant|{{PNL|{{{regnant}}}|Character}} }}
+		}}{{#ifeq: {{{clan| }}}
+			|
+			|
+			| {{SBL|Regnant's Clan|{{PNL|{{{clan}}}|Clan}} }}
+		}}{{#ifeq: {{{covenant| }}}
+			|
+			|
+			| {{SBL|Regnant's Covenant|{{PNL|{{{covenant}}}|Covenant}} }}
+		}}
+		| Wolf-Blooded={{SBL|Template|[[Sphere:Werewolf{{!}}Wolf-Blooded]]<br>([[Sphere:Mortal{{!}}Mortal]] + [[Sphere:Werewolf{{!}}Werewolf]])}}
+		| Vampire={{SBL|Template|[[Sphere:Vampire{{!}}Vampire]] }}{{#ifeq: {{{clan| }}}
+			|
+			|
+			| {{SBL|Clan|{{PNL|{{{clan}}}|Clan}} }}
+		}}{{#ifeq: {{{covenant| }}}
+			|
+			|
+			| {{SBL|Covenant|{{PNL|{{{covenant}}}|Covenant}} }}
+		}}{{#ifeq: {{{bloodline| }}} 
+			| 
+			| 
+			| {{SBL|Bloodline|{{PNL|{{{bloodline}}}|Bloodline}} }}
+		}}
+		| Werewolf={{SBL|Template|[[Sphere:Werewolf{{!}}Werewolf]]}}{{#ifeq: {{{auspice| }}} 
+			| 
+			| 
+			| {{SBL|Auspice|{{PNL|{{{auspice}}}|Auspice}} }}
+		}}{{#ifeq: {{{tribe| }}} 
+			| 
+			| 
+			| {{SBL|Tribe|{{PNL|{{{tribe}}}|Tribe}} }}
+		}}{{#ifeq: {{{lodge| }}} 
+			| 
+			| 
+			| {{SBL|Lodge|{{PNL|{{{lodge}}}|Lodge}} }}
+		}}
+	}}
+	
+	</center>
+	<div class="divider">[[File:EchoesBreak.png|350px]]</div>
+</div>{{#ifeq: {{{overview| }}}
+	|
+	|
+	| {{BR}}
+	
+	{{{overview}}}
+
+	{{BR}}
+	
+}}{{#ifeq: {{{hooks| }}}
+	|
+	|
+	| <h2>Hooks</h2>
+	{{BR}}
+	
+	{{{hooks}}}
+	
+	{{BR}}
+}}{{#ifeq: {{{gallery| }}}
+	|
+	|
+	| <h2>Gallery</h2>
+	{{BR}}
+	
+	{{{gallery}}}
+	
+	{{BR}}	
+}}{{#ifeq: {{{factions| }}}
+	|
+	|
+	| <h2>Factions</h2>
+	{{BR}}
+	
+	{{{factions}}}
+
+	{{BR}}	
+}}{{#ifeq: {{{contacts| }}}
+	|
+	|
+	| <h2>Contacts</h2>
+	{{BR}}
+	
+	{{{contacts}}}
+
+	{{BR}}	
+}}<!--
+
+CLOSE FIRST TAB
+BEGIN SECOND TAB
+
+-->{{#ifeq: {{{sheet| }}} 
+	| no
+	|
+	| 
+<h1>Sheet</h1>
+<div id="sheet">
+<h2>Basics</h2>
+<div class="berxberx"><div class="berxsh"><h5>Template</h5>
+{{#switch: {{{template| }}}
+	| Mortal
+	| Atariya
+	| Lost Boy
+	| Psychic
+	| Psychic Vampire={{SHL|Template|[[Sphere:Mortal{{!}}{{{template}}}]]}}{{#ifeq: {{{integrity| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{integrity}}}}}|[[Stat:Integrity{{!}}Integrity]]}}
+	}}
+	| Ghoul={{SHL|Template|[[Sphere:Vampire{{!}}Ghoul]]}}{{#ifeq: {{{integrity| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{integrity}}}}}|[[Stat:Integrity{{!}}Integrity]]}}
+	}}
+	| Wolf-Blooded={{SHL|Template|[[Sphere:Werewolf{{!}}Wolf-Blooded]]}}{{#ifeq: {{{integrity| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{integrity}}}}}|[[Stat:Integrity{{!}}Integrity]]}}
+	}}
+	| Vampire={{SHL|Template|[[Sphere:Vampire{{!}}Vampire]]}}{{#ifeq: {{{humanity| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{humanity}}}}}|[[Stat:Humanity{{!}}Humanity]]}}
+	}}{{#ifeq: {{{bloodpotency| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{bloodpotency}}}}}|[[Stat:Blood Potency{{!}}Blood Potency]]}}
+	}}
+	| Werewolf={{SHL|Template|[[Sphere:Werewolf{{!}}Werewolf]]}}{{#ifeq: {{{harmony| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{harmony}}}}}|[[Stat:Harmony{{!}}Harmony]]}}
+	}}{{#ifeq: {{{primalurge| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{primalurge}}}}}|[[Stat:Primal Urge{{!}}Primal Urge]]}}
+	}}{{#ifeq: {{{essence| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{essence}}}}}|[[Stat:Essence{{!}}Essence]]}}
+	}}
+}}</div>
+<div class="berxsh"><h5>Affiliations</h5>
+{{#switch: {{{template| }}}
+	| Vampire={{SHL|Clan|{{PNL|{{{clan}}}|Clan}} }}
+		{{SHL|Covenant|{{PNL|{{{covenant}}}|Covenant}} }}{{#ifeq: {{{bloodline| }}} 
+			| 
+			| 
+			| {{SHL|Bloodline|{{PNL|{{{bloodline}}}|Bloodline}} }}
+		}}
+	| Ghoul={{SHL|Regnant|{{#ifeq: {{{regnant| }}} 
+			|
+			| ''Regnant Unset''
+			| {{PNL|{{{regnant}}}|Character}}
+		}} }}
+		{{SHL|Regnant's Clan|{{#ifeq: {{{clan| }}}
+			|
+			| ''Regnant's Clan Unset''
+			| {{PNL|{{{clan}}}|Clan}}
+		}} }}
+		{{SHL|Regnant's Covenant|{{#ifeq: {{{covenant| }}}
+			|
+			| ''Regnant's Covenant Unset''
+			| {{PNL|{{{covenant}}}|Covenant}} 
+		}} }}
+	| Werewolf={{SHL|Auspice|{{PNL|{{{auspice}}}|Auspice}} }}
+		{{SHL|Tribe|{{PNL|{{{tribe}}}|Tribe}} }}{{#ifeq: {{{lodge| }}} 
+			| 
+			| 
+			| {{SHL|Lodge|{{PNL|Lodge of {{{lodge}}}|Lodge}} }}
+		}}
+		
+}}
+</div>
+<div class="berxsh"><h5>Universal</h5>
+
+</div>
+</div>
+
+<h2>Attributes</h2>
+<div class="berxberx">
+<div class="berxsh"><h5>Mental</h5>
+{{SHL|{{Dotz|{{{intelligence}}}}}|[[Stat:Intelligence{{!}}Intelligence]]}}
+{{SHL|{{Dotz|{{{wits}}}}}|[[Stat:Wits{{!}}Wits]]}}
+{{SHL|{{Dotz|{{{resolve}}}}}|[[Stat:Resolve{{!}}Resolve]]}}</div>
+<div class="berxsh"><h5>Physical</h5>
+{{SHL|{{Dotz|{{{strength}}}}}|[[Stat:Strength{{!}}Strength]]}}
+{{SHL|{{Dotz|{{{dexterity}}}}}|[[Stat:Dexterity{{!}}Dexterity]]}}
+{{SHL|{{Dotz|{{{stamina}}}}}|[[Stat:Stamina{{!}}Stamina]]}}</div>
+<div class="berxsh"><h5>Social</h5>
+{{SHL|{{Dotz|{{{presence}}}}}|[[Stat:Presence{{!}}Presence]]}}
+{{SHL|{{Dotz|{{{manipulation}}}}}|[[Stat:Manipulation{{!}}Manipulation]]}}
+{{SHL|{{Dotz|{{{composure}}}}}|[[Stat:Composure{{!}}Composure]]}}</div>
+</div>
+
+<h2>Skills</h2>
+<div class="berxberx">
+<div class="berxsh"><h5>Mental</h5>
+{{SHL|{{Dotz|{{{academics}}}}}|[[Stat:Academics{{!}}Academics]]{{#ifeq: {{{specacademics| }}}
+	|
+	|
+	| <br><div class="spec">{{{specacademics}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{computer}}}}}|[[Stat:Computer{{!}}Computer]]{{#ifeq: {{{speccomputer| }}}
+	|
+	|
+	| <br><div class="spec">{{{speccomputer}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{crafts}}}}}|[[Stat:Crafts{{!}}Crafts]]{{#ifeq: {{{speccrafts| }}}
+	|
+	|
+	| <br><div class="spec">{{{speccrafts}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{investigation}}}}}|[[Stat:Investigation{{!}}Investigation]]{{#ifeq: {{{specinvestigation| }}}
+	|
+	|
+	| <br><div class="spec">{{{specinvestigation}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{medicine}}}}}|[[Stat:Medicine{{!}}Medicine]]{{#ifeq: {{{specmedicine| }}}
+	|
+	|
+	| <br><div class="spec">{{{specmedicine}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{occult}}}}}|[[Stat:Occult{{!}}Occult]]{{#ifeq: {{{specoccult| }}}
+	|
+	|
+	| <br><div class="spec">{{{specoccult}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{politics}}}}}|[[Stat:Politics{{!}}Politics]]{{#ifeq: {{{specpolitics| }}}
+	|
+	|
+	| <br><div class="spec">{{{specpolitics}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{science}}}}}|[[Stat:Science{{!}}Science]]{{#ifeq: {{{specscience| }}}
+	|
+	|
+	| <br><div class="spec">{{{specscience}}}</div>
+}} }}</div>
+<div class="berxsh"><h5>Physical</h5>
+{{SHL|{{Dotz|{{{athletics}}}}}|[[Stat:Athletics{{!}}Athletics]]{{#ifeq: {{{specathletics| }}}
+	|
+	|
+	| <br><div class="spec">{{{specathletics}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{brawl}}}}}|[[Stat:Brawl{{!}}Brawl]]{{#ifeq: {{{specbrawl| }}}
+	|
+	|
+	| <br><div class="spec">{{{specbrawl}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{drive}}}}}|[[Stat:Drive{{!}}Drive]]{{#ifeq: {{{specdrive| }}}
+	|
+	|
+	| <br><div class="spec">{{{specdrive}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{firearms}}}}}|[[Stat:Firearms{{!}}Firearms]]{{#ifeq: {{{specfirearms| }}}
+	|
+	|
+	| <br><div class="spec">{{{specfirearms}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{larceny}}}}}|[[Stat:Larceny{{!}}Larceny]]{{#ifeq: {{{speclarceny| }}}
+	|
+	|
+	| <br><div class="spec">{{{speclarceny}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{stealth}}}}}|[[Stat:Stealth{{!}}Stealth]]{{#ifeq: {{{specstealth| }}}
+	|
+	|
+	| <br><div class="spec">{{{specstealth}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{survival}}}}}|[[Stat:Survival{{!}}Survival]]{{#ifeq: {{{specsurvival| }}}
+	|
+	|
+	| <br><div class="spec">{{{specsurvival}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{weaponry}}} }}|[[Stat:Weaponry{{!}}Weaponry]]{{#ifeq: {{{specweaponry| }}}
+	|
+	|
+	| <br><div class="spec">{{{specweaponry}}}</div>
+}} }}</div>
+<div class="berxsh"><h5>Social</h5>
+{{SHL|{{Dotz|{{{animalken}}}}}|[[Stat:Animal Ken{{!}}Animal Ken]]{{#ifeq: {{{specanimalken| }}}
+	|
+	|
+	| <br><div class="spec">{{{specanimalken}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{empathy}}}}}|[[Stat:Empathy{{!}}Empathy]]{{#ifeq: {{{specempathy| }}}
+	|
+	|
+	| <br><div class="spec">{{{specempathy}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{expression}}}}}|[[Stat:Expression{{!}}Expression]]{{#ifeq: {{{specexpression| }}}
+	|
+	|
+	| <br><div class="spec">{{{specexpression}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{intimidation}}}}}|[[Stat:Intimidation{{!}}Intimidation]]{{#ifeq: {{{specintimidation| }}}
+	|
+	|
+	| <br><div class="spec">{{{specintimidation}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{persuasion}}}}}|[[Stat:Persuasion{{!}}Persuasion]]{{#ifeq: {{{specpersuasion| }}}
+	|
+	|
+	| <br><div class="spec">{{{specpersuasion}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{socialize}}}}}|[[Stat:Socialize{{!}}Socialize]]{{#ifeq: {{{specsocialize| }}}
+	|
+	|
+	| <br><div class="spec">{{{specsocialize}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{streetwise}}}}}|[[Stat:Streetwise{{!}}Streetwise]]{{#ifeq: {{{specstreetwise| }}}
+	|
+	|
+	| <br><div class="spec">{{{specstreetwise}}}</div>
+}} }}
+{{SHL|{{Dotz|{{{subterfuge}}}}}|[[Stat:Subterfuge{{!}}Subterfuge]]{{#ifeq: {{{specsubterfuge| }}}
+	|
+	|
+	| <br><div class="spec">{{{specsubterfuge}}}</div>
+}} }}</div>
+</div>
+
+</div>
+|
+}}<!--
+
+BEGIN EXTRAS TAB
+
+--><h1>Extras</h1>
+{{#ifeq: {{{asp| }}}
+	|
+	|
+	| <h2>Aspirations</h2>
+
+{{{asp}}}
+
+}}{{#ifeq: {{{background| }}}
+	|
+	|
+	| <h2>Background</h2>
+	{{BR}}
+	
+	{{{background}}}
+	
+	{{BR}}
+	
+}}<!--
+
+BEGIN LOGS TAB
+
+--><h1>Logs</h1>
+
+{{#dpl:
+	|category=Roleplaying Logs
+	|uses=Template:Log
+	|linksto={{FULLPAGENAME}}
+	|include={Log}:gamedate,{Log}.list
+	|ordermethod=sortkey
+	|noresultsheader=<p>''No logs found.''</p>
+	|listseparators= ,
+        |tablesortcol=-1
+        |table=class=logtable,-,
+        |tablerow=style="display: none;"{{!}}%%,%%
+}}<!--
+
+CLOSE HEADERTABS
+
+--><headertabs/><!--
+
+CLOSE TEMPLATE
+
+--></includeonly>
