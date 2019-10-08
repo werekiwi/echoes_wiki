@@ -80,7 +80,7 @@ UNIVERSAL SHEET TAB
 <h2>Required Section</h2>
 <div class="berxberx"><div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Template</h5>
 ;Template (required)
-:{{{field|template|input type=dropdown|values=Atariya,Ghoul,Lost Boy,Mortal,Psychic,Psychic Vampire,Vampire,Werewolf,Wolf-Blooded|default=Mortal|mandatory}}}
+:{{{field|template|input type=dropdown|values=Atariya,Ghoul,Lost Boy,Mage,Mortal,Proximi,Psychic,Psychic Vampire,Sleepwalker,Vampire,Werewolf,Wolf-Blooded|default=Mortal|mandatory}}}
 </div>
 <div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Sheet Display</h5>
 ;Do you want to display your sheet?
@@ -103,6 +103,11 @@ You will notice that not all of the options are there; '''''many will only be av
 ;Auspice:{{{field|auspice|input type=dropdown|values=Cahalith,Elodoth,Irraka,Ithaeur,Rahu}}}
 ;Tribe:{{{field|tribe|input type=dropdown|values=Blood Talons,Bone Shadows,Hunters in Darkness,Iron Masters,Storm Lords,Ghost Wolves}}}
 ;Lodge:{{{field|lodge|input type=dropdown|values=Arms,Cerberus,Crows,Death,Doors,Faceless,Gargoyles,Garm,Harbingers,Harmony,Hook Hand,Lightning,Prophecy,Scrolls,Seasons,Swords,Chronicle,Einherjar,Screaming Moon,Shield,Thousand Steel Teeth,Thunder,Voices,Wendigo,Winter,Wrath}}}
+</div>
+<div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Mage</h5>
+;Path:{{{field|path|input type=dropdown|values=Acanthus,Mastigos,Moros,Obrimos,Thyrsus}}}
+;Order:{{{field|order|input type=dropdown|values=Apostate,Adamantine Arrow,Free Council,Guardians of the Veil,Mysterium,Silver Ladder}}}
+;Legacy:{{{field|legacy|input type=dropdown|values=Ascended Adepts,Bene Ashmedai,Blank Badges,Celestial Masters,Choir of Hashmallim,Chrysalides,Clavicularius,Cwn Annwn,Daksha,Dreamspeakers,Echo Walkers,Eyes of Ain Soph,Forge Masters,House of Ariadne,Lords of the Inanimate,Orphans of Proteus,Perfected Adepts,Pure Sovereigns,Reality Makers,Reality Stalkers,Roses of Eden,Scions of God,Sisterhood of the Blessed,Sphinxes,Tamers of Fire,Tamers of Rivers,Tamers of Winds,The Illuminated Path,Threnodists,Transhuman Engineers,Uncrowned Kings,Unforgotten Scions,Votaries of the Ordained,Whipping Boys}}}
 </div></div>
 
 <h2>Optional Section</h2>
@@ -191,6 +196,10 @@ When adding multiple specialties, separate them with a <nowiki><br></nowiki> tag
 <div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Werewolf</h5>
 {{FL|{{{field|harmony|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=7}}}|'''Harmony'''<br>(Werewolves Only)}}
 {{FL|{{{field|primalurge|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Primal Urge'''<br>(Werewolves Only)}}
+</div>
+<div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Mage</h5>
+{{FL|{{{field|wisdom|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=7}}}|'''Wisdom'''<br>(Mages Only)}}
+{{FL|{{{field|gnosis|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=1}}}|'''Gnosis'''<br>(Mages Only)}}
 </div>
 <div class="berx" style="width: 280px; min-width: 280px; max-width: 280px;"><h5>Universal</h5>
 {{FL|{{{field|willpower|input type=dropdown|values=0,1,2,3,4,5,6,7,8,9,10|default=4}}}|'''Permanent Willpower'''}}

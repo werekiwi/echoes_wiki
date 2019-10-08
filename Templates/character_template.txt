@@ -20,6 +20,9 @@ Establishing our variables and categories here!
 {{#ifeq: {{{auspice| }}} | | | [[Category:{{PAGENAME:{{{auspice}}}}}]] }}
 {{#ifeq: {{{tribe| }}} | | | [[Category:{{PAGENAME:{{{tribe}}}}}]] }}
 {{#ifeq: {{{lodge| }}} | | | [[Category:{{PAGENAME:{{{lodge}}}}}]] }}
+{{#ifeq: {{{path| }}} | | | [[Category:{{PAGENAME:{{{path}}}}}]] }}
+{{#ifeq: {{{order| }}} | | | [[Category:{{PAGENAME:{{{order}}}}}]] }}
+{{#ifeq: {{{legacy| }}} | | | [[Category:{{PAGENAME:{{{legacy}}}}}]] }}
 {{#ifeq: {{{faction| }}} | | | [[Category:{{PAGENAME:{{{faction}}}}}]] }}
 
 </div><!--
@@ -39,6 +42,8 @@ BEGIN MAIN SIDEBAR BOX
 		| {{#switch: {{{template| }}}
 			| Mortal
 			| Ghoul
+			| Proximi
+			| Sleepwalker
 			| Wolf-Blooded=[[File:Mortal.png]]
 			| Psychic
 			| Atariya
@@ -46,6 +51,7 @@ BEGIN MAIN SIDEBAR BOX
 			| Psychic Vampire=[[File:SecondSight.png]]
 			| Vampire=[[File:Vampire_Face.png]]
 			| Werewolf=[[File:Werewolf_the_forsaken.png]]
+			| Mage=[[File:Mage_Face.png]]
 		}} 
 		| [[File:{{{portrait}}}|330px]] 
 	}}
@@ -106,6 +112,8 @@ BEGIN MAIN SIDEBAR BOX
 			|
 			| {{SBL|Regnant's Covenant|{{PNL|{{{covenant}}}|Covenant}} }}
 		}}
+		| Proximi={{SBL|Template|[[Sphere:Mage{{!}}Proximi]]<br>([[Sphere:Mortal{{!}}Mortal]] + [[Sphere:Mage{{!}}Mage]])}}
+		| Sleepwalker={{SBL|Template|[[Sphere:Mage{{!}}Sleepwalker]]<br>([[Sphere:Mortal{{!}}Mortal]] + [[Sphere:Mage{{!}}Mage]])}}
 		| Wolf-Blooded={{SBL|Template|[[Sphere:Werewolf{{!}}Wolf-Blooded]]<br>([[Sphere:Mortal{{!}}Mortal]] + [[Sphere:Werewolf{{!}}Werewolf]])}}
 		| Vampire={{SBL|Template|[[Sphere:Vampire{{!}}Vampire]] }}{{#ifeq: {{{clan| }}}
 			|
@@ -132,6 +140,19 @@ BEGIN MAIN SIDEBAR BOX
 			| 
 			| 
 			| {{SBL|Lodge|{{PNL|{{{lodge}}}|Lodge}} }}
+		}}
+		| Mage={{SBL|Template|[[Sphere:Mage{{!}}Mage]]}}{{#ifeq: {{{path| }}}
+			|
+			|
+			| {{SBL|Path|{{PNL|{{{path}}}|Path}} }}
+		}}{{#ifeq: {{{order| }}}
+			|
+			|
+			| {{SBL|Order|{{PNL|{{{order}}}|Order}} }}
+		}}{{#ifeq: {{{legacy| }}}
+			|
+			|
+			| {{SBL|Legacy|{{PNL|{{{legacy}}}|Legacy}} }}
 		}}
 	}}
 	
@@ -215,6 +236,12 @@ BEGIN SECOND TAB
 		|
 		| {{SHL|{{Dotz|{{{integrity}}}}}|[[Stat:Integrity{{!}}Integrity]]}}
 	}}
+	| Proximi
+	| Sleepwalker={{SHL|Template|[[Sphere:Mage{{!}}{{{template}}}]]}}{{#ifeq:{{{integrity| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{integrity}}}}}|[[Stat:Integrity{{!}}Integrity]]}}
+	}}
 	| Vampire={{SHL|Template|[[Sphere:Vampire{{!}}Vampire]]}}{{#ifeq: {{{humanity| }}}
 		|
 		|
@@ -236,6 +263,15 @@ BEGIN SECOND TAB
 		|
 		|
 		| {{SHL|{{Dotz|{{{essence}}}}}|[[Stat:Essence{{!}}Essence]]}}
+	}}
+	| Mage={{SHL|Template|[[Sphere:Mage{{!}}Mage]]}}{{#ifeq: {{{wisdom| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{wisdom}}}}}|[[Stat:Wisdom{{!}}Wisdom]]}}
+	}}{{#ifeq: {{{gnosis| }}}
+		|
+		|
+		| {{SHL|{{Dotz|{{{gnosis}}}}}|[[Stat:Gnosis{{!}}Gnosis]]}}
 	}}
 }}</div>
 <div class="berxsh"><h5>Affiliations</h5>
@@ -267,7 +303,12 @@ BEGIN SECOND TAB
 			| 
 			| {{SHL|Lodge|{{PNL|Lodge of {{{lodge}}}|Lodge}} }}
 		}}
-		
+	| Mage={{SHL|Path|{{PNL|{{{path}}}|Path}} }}
+		{{SHL|Order|{{PNL|{{{order}}}|ORder}} }}{{#ifeq: {{{legacy| }}} 
+			| 
+			| 
+			| {{SHL|Legacy|{{PNL|{{{legacy}}}|Legacy}} }}
+		}}
 }}
 </div>
 <div class="berxsh"><h5>Universal</h5>
